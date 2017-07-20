@@ -1,0 +1,8 @@
+syntax = "proto2";
+package platform_msgs.msgs;
+
+message platform
+{
+  required float time_msec       	= 1;
+  required float h		      	= 2;
+}
