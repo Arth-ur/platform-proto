@@ -4,7 +4,7 @@ package platform_msgs.msgs;
 message platform
 {
   required float time_msec      = 1;
-  required float h              = 2;
-  required float x              = 3;
-  required float y              = 4;
+  optional float h              = 2;
+  optional float x              = 3;
+  optional float y              = 4;
 }
